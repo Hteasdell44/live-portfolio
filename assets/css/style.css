@@ -1,0 +1,100 @@
+
+
+
+
+nav {
+
+    background-color: black;
+    height: 15vh;
+    position: relative;
+}
+
+nav img {
+
+    max-width: 23vw;
+    position: absolute;
+    bottom: 1px;
+    left: 70px;
+}
+
+nav ul {
+
+    position: absolute;
+    right: 60px;
+    bottom: 50px;
+    font-size: 18px;
+    display: inline;
+}
+
+nav ul li {
+
+    display: inline;
+}
+
+nav ul a {
+
+   padding-right: 10px;
+   padding-left: 10px;
+   color: white;
+}
+
+#headerContactButton {
+
+    background-color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#hero {
+
+    height: 85vh;
+    width: 100vw;
+    background-color: orange;
+    position: absolute;
+}
+
+#heroImage {
+
+    max-height: 80vh;
+    margin-top: 2.5vh;
+    margin-left: 15vw;
+    margin-right: 20vw;
+    box-shadow: 10px 5px 5px black;
+    position: relative;
+}
+
+#heroText {
+
+    display: inline-block;
+    position: absolute;
+    margin-top: 10vh;
+    align-items: center;
+
+}
+
+.heroCard {
+
+    height: 5vh;
+    width: 25vw;
+    background-color: black;
+    margin-top: 5vh;
+    margin-bottom: 11vh;
+    color: white;
+    position: relative;
+}
+
+.heroCard h3 {
+
+    text-align: center;
+    padding-top: 10px;
+    
+}
+
+.toolDescription {
+
+    height: 9vh;
+    width: 30vw;
+    background-color: white;
+    position: absolute;
+    right: -2.5vw;
+}
