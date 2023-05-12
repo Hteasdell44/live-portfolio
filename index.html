@@ -11,64 +11,199 @@
 
 <body>
 
-    <nav>
+    <header id="header">
 
-        <img src="./assets/images/white-logo.png" alt="#" class="headerLogo"/>
+        <img src="./assets/images/white-logo.png" alt="#" class="header-logo"/>
 
-        <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Resume</a></li>
-            <li id="headerContactButton"><a href="#">Contact Me</a></li>
-        </ul>
-
-    </nav>
+    </header>
 
     <section id="hero">
 
-        <img src="./assets/images/hero-placeholder.jpg" alt="#" id="heroImage"/>
+        <nav>
 
-        <div id="heroText">
+            <div id="home-hover"></div>
 
-            <h2>I Build Captivating Web Applications With:</h2>
+            <a id="home-anchor" href="#header">
+                <img id="home-icon" src="./assets/images/home-icon.png"  alt="#" />
+            </a>
 
-            <section class="heroCard" id="htmlCard">
+            <div id="about-hover"></div>
 
-                <h3>HTML & CSS</h3>
+            <a href="#about">
+                <img id="about-icon" src="./assets/images/about-icon.png" alt="#" />
+            </a>
 
-                <div class="toolDescription">
+            <div id="toolkit-hover"></div>
 
-                </div>
-            </section>
+            <a href="#toolkit">
+                <img id="toolkit-icon" src="./assets/images/toolkit-icon.png" alt="#" />
+            </a>
+            
+            <div id="projects-hover"></div>
 
-            <section class="heroCard" id="jsCard">
-                <h3>JavaScript</h3>
+            <a href="#projects">
+                <img id="projects-icon" src="./assets/images/projects-icon.png" alt="#" />
+            </a>
 
-                <div class="toolDescription">
+            <div id="contact-hover"></div>
 
-                </div>
+            <a href="#contact">
+                <img id="contact-icon" src="./assets/images/contact-icon.png" alt="#" />
+            </a>
+    
+        </nav>
 
-            </section>
+        <div id="hero-left">
 
-            <section class="heroCard" id="apiCard">
-                <h3>API's</h3>
+            <!-- The image on the left side of the hero. -->
 
-                <div class="toolDescription">
-
-                </div>
-
-            </section>
-
-            <section class="heroCard" id="databasesCard">
-                <h3>Databases</h3>
-
-                <div class="toolDescription">
-
-                </div>
-                
-            </section>
+            <img src="./assets/images/placeholder-image.png" alt="#" id="hero-image"/>
 
         </div>
+
+
+        <div id="hero-right">
+
+            <!-- The text on the right side of the hero. -->
+
+            <div class="hero-text">
+
+                <h1 class="hero-heading">Hey there, I'm Hakim.</h1>
+
+                <h1 class="hero-heading">I build captivating Web Applications with <span id="tool-cycler">Dynamic</span>.</h1>
+
+            </div>
+
+            <!-- The buttons on the right side of the hero. -->
+
+            <div id="hero-button-holder">
+
+                <a href="https://www.google.com">
+                    <button id="resume-button" class="hero-button">Resumé</button>
+                </a>
+    
+                <a href="https://www.linkedin.com/in/hteasdell">
+                    <button id="linkedin-button" class="hero-button">LinkedIn</button>
+                </a>
+    
+                <a href="https://github.com/Hteasdell44">
+                    <button id="github-button" class="hero-button">GitHub</button>
+                </a>
+    
+            </div>
+
+        </div>
+        
+        <!-- Caret icon at bottom of page. -->
+        <a href="#about">
+
+            <img class="down-caret" id="hero-caret" src="./assets/images/down-caret.jpg" alt="#" />
+        </a>
+
+    </section>
+
+    <section id="about">
+
+        <h1>About Me</h1>
+
+            
+        <!-- Caret icon at bottom of page. -->
+        <a href="#toolkit">
+            <img class="down-caret" id="about-caret" src="./assets/images/down-caret.jpg" alt="#" />
+        </a>
+
+    </section>
+
+    <section id="toolkit">
+
+        <h1>My Toolkit</h1>
+
+        <div id="tool-holder">
+
+            <div class="tool-list">
+
+                <h2 class="tool">HTML</h2>
+                <h2 class="tool">CSS</h2>
+                <h2 class="tool">Git</h2>
+                <h2 class="tool">API's</h2>
+
+            </div>
+            
+            <div class="tool-list">
+
+                <h2 class="tool">JavaScript</h2>
+                <h2 class="tool">AJAX</h2>
+                <h2 class="tool">Node.js</h2>
+                <h2 class="tool">Express.js</h2>
+
+            </div>
+            
+            <div class="tool-list">
+
+                <h2 class="tool">React</h2>
+                <h2 class="tool">MySQL</h2>
+                <h2 class="tool">NoSQL</h2>
+                <h2 class="tool">MongoDB</h2>
+
+            </div>
+
+        </div>
+
+        <a href="#projects">
+            <img class="down-caret" id="toolkit-caret" src="./assets/images/down-caret.jpg" alt="#" />
+        </a>
+
+    </section>
+
+    <section id="projects">
+
+        <h1>My Projects</h1>
+
+        <div id="project-holder">
+
+            <div id="projects-left">
+
+                <a href="https://hteasdell44.github.io/wall-ball/">
+                    <img src="./assets/images/wall-ball-screenshot.png" alt="" />
+                </a>
+    
+            </div>
+    
+            <div id="projects-right-top">
+    
+            </div>
+
+            <div id="projects-right-bottom-left">
+
+
+            </div>
+
+            <div id="projects-right-bottom-right">
+
+
+            </div>
+
+            <a href="#contact">
+                <img class="down-caret" id="projects-caret" src="./assets/images/down-caret.jpg" alt="#" />
+            </a>
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+
+        <h1>Contact Me</h1>
+
+        <form>
+
+            <label>Name:</label> <input type="text" class="small-input-field" /> <br>
+            <label>Email:</label> <input type="email" class="small-input-field" /> <br>
+            <label>Subject:</label> <input type="text" class="small-input-field"/> <br>
+            <label>Message:</label> <textarea id="text" name="text"></textarea> <br>
+            <input type="submit" value="Submit" id="submit-button"/>
+
+        </form>
 
     </section>
     
